@@ -1,0 +1,9 @@
+paste `find . -name 00BK-CH1.txt` > Z-CH1.txt
+paste `find . -name 00BK-CH2.txt` > Z-CH2.txt
+paste `find . -name 00BK-CH3.txt` > Z-CH3.txt
+
+
+paste `find . -name 00BK-CH1-ratio.txt` > Z-CH1-ratio.txt
+paste `find . -name 00BK-CH2-ratio.txt` > Z-CH2-ratio.txt
+paste `find . -name 00BK-CH3-ratio.txt` > Z-CH3-ratio.txt
+

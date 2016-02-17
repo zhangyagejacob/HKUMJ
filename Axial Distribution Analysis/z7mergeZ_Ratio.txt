@@ -1,0 +1,2 @@
+paste Ratio-CH1Max.txt Ratio-CH2Max.txt	Ratio-CH3Max.txt > Ratio-Max.txt
+paste Ratio-CH1Avg.txt Ratio-CH2Avg.txt	Ratio-CH3Avg.txt > Ratio-Avg.txt

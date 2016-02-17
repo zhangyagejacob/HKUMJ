@@ -1,0 +1,7 @@
+paste `find . -name 0FRAP-BKC-CH1-zone1*` > FRAP-CH1-BKC-zone1.txt
+paste `find . -name 0FRAP-BKC-CH2-zone1*` > FRAP-CH2-BKC-zone1.txt
+paste `find . -name 0FRAP-BKC-CH3-zone1*` > FRAP-CH3-BKC-zone1.txt
+
+paste `find . -name 0FRAP-BKC-CH1-zone2*` > FRAP-CH1-BKC-zone2.txt
+paste `find . -name 0FRAP-BKC-CH2-zone2*` > FRAP-CH2-BKC-zone2.txt
+paste `find . -name 0FRAP-BKC-CH3-zone2*` > FRAP-CH3-BKC-zone2.txt
