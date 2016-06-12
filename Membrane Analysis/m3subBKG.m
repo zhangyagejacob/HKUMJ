@@ -34,7 +34,7 @@ for i = 1 : length( dirs_2 )
                 continue;
             end
 
-            dirs_4(k).name    %testing    Axial Distribution
+            dirs_4(k).name    %testing    Membrane Analysis
             dir_name_4 = fullfile(dir_name_3,dirs_4(k).name);
             
             dirs_5 = dir(dir_name_4);

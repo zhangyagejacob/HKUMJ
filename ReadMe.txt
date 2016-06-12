@@ -12,6 +12,7 @@ Axial Distribution Analysis (Z-stack Analysis)
 Membrane Analysis
 1. Run m3subBKG.m to subtract background 
 2. Run assis4Membrane_DataAlignment.m to do data alignment for each channel, as well as prepare data for plotting diagrmas
+%2.1 Run assis4Membrane_DataAlignment_nonbind.m to align data for proteins TH1, TH2 & TH3 only. The results will be used to plot diagrams
 %3. Run m4merge.m to merge every single channel of each sample into one file, which would use in m5ParaM.m // this code is not useful
 4. Run m5ParaM.m to calculate parameter M for each protein (each sample in a line, recorded in the form of [M, PM, CB])
 
@@ -20,3 +21,7 @@ FRAP Analysis
 2. Run assis3FRAP_DataAlignment.m for aligning each data slot in a standard format, such that the 6th point would be the lowest point
 3. Run t6mergeFRAPZone1.m and t6mergeFRAPZone2.m to merge all FRAP-BKC-CHX-zoneX_alignment.txt into FRAP-CHX-zoneX.txt
 4. Run t7realign_Zone1.m and t7realign_Zone2.m to do re-alignment of FRAP-CHX-zoneX.txt by averaging the intensity of pre-bleaching points into 1, and derive a scaling factor which would be used to multiply every points after bleaching
+
+Zone Analysis
+1. Run zone2_alignment.m to calculate NP (normalized position) & PIR (peak intensity ratio).
+2. Run zone3_merge.m to merge all NP & PIR of different samples into one file for plotting diagram easier

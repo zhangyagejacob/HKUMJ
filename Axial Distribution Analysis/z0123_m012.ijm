@@ -26,14 +26,15 @@ Stack.setChannel(1);
 run("Enhance Contrast", "saturated=0.66"); 
 Stack.setChannel(3);
 run("Enhance Contrast", "saturated=0.66"); 
-Stack.setChannel(2);
+Stack.setChannel(2);
 run("Enhance Contrast", "saturated=0.66"); 
 
 // ROI for Camera Background
 
 myDir=fd + "bk" 
 File.makeDirectory(myDir);
-myDir1=fd + "mbk";
+
+myDir1=fd + "mbk";
 File.makeDirectory(myDir1);
 
 print("<<Camera Background>>"); 
@@ -186,7 +187,8 @@ run("Close All");
 run("Open...");
 fd=File.directory;
 icsids=File.name;
-icsidsfile = fd+icsids;  // reopen the icsids file 
+icsidsfile = fd+icsids;  // reopen the icsids file 
+
 
   Dialog.create("Number of Z stack");
   Dialog.addNumber("Number of Z stack:", 21);
@@ -210,7 +212,8 @@ run("Enhance Contrast", "saturated=0.66");
 
 // mbk.roi, camera background
 // mscan.roi, membrane linescan at 1000nm above 
-/*
+
+/*
 // Camera background
 // Camera background
 
@@ -236,7 +239,8 @@ roiManager("reset");
 
 // End of Camera background 
 // End of Camera background
-*/
+
+*/
 
 // Assign linescan ROI
 // Assign linescan ROI

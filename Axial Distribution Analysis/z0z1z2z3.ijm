@@ -11,7 +11,6 @@ fd=File.directory;
 icsids=File.name;
 icsidsfile = fd+icsids;  // reopen the icsids file 
 
-
   Dialog.create("Number of Z stack");
   Dialog.addNumber("Number of Z stack:", 21);
   Dialog.show();
